@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CreateNewProfile</title>
+</head>
+
+<body>
+  <h2>MY PROFILE - <em>(More detailed profiles will appear in more search results)</em></h2>
+  <table>
+    <tr>
+      <td>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="submit" value="Upload Image" name="submit">
+        </form></td>
+      <td>
+
+        <form class="" action="index.html" method="post">
+          <label>Email</label>
+          <input type="email" name="" value=""> <br>
+          <label>Password</label>
+          <input type="password" name="" value=""> <br>
+          <label>Full Name</label>
+          <input type="Name" name="" value=""><br>
+          <label>Birth Date</label>
+          <input type="date" name="" value=""><br>
+          <label>Contact Number</label>
+          <input type="text" name="" value=""><br>
+          <input type="submit" name="">
+        </form>
+      </td>
+    </tr>
+  </table>
+
+<form class="" action="index.html" method="post">
+  <label>Location City</label>
+  <input type="text" name="" value=""><br>
+  <label for="Age">Age</label>
+  <input type="range" id="points" name="age" min="15" max="100"><br>
+
+  <input type="radio" id="Female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <br>
+</form>
+
+</body>
+
+</html>
